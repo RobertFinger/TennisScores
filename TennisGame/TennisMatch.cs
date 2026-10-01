@@ -43,7 +43,8 @@
             {
                 _One.Scored(); 
             }
-            else
+
+            if (player == 2)
             {
                 _Two.Scored();
             }
